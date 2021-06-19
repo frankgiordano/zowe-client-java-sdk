@@ -11,8 +11,12 @@ public class SubmitJobsTest {
     private static final Logger LOG = LogManager.getLogger(SubmitJobsTest.class);
 
     public static void main(String[] args) throws IOException {
-        ZOSConnection connection = new ZOSConnection("xxxxxxxx", "xxxxxxxx",
-                "xxxxxxxx", "xxxxxxxx");
+        String hostName = "xxxxxxxx";
+        String port = "xxxxxxxx";
+        String userName = "xxxxxxxx";
+        String password = "xxxxxxxx";
+
+        ZOSConnection connection = new ZOSConnection(hostName, port, userName, password);
         LOG.info(SubmitJobsTest.tstSubmitJob(connection, "xxx.xxx.xxx.xxx(xxx)"));
         String jclString = "//TESTJOBX JOB (),MSGCLASS=H\r // EXEC PGM=IEFBR14";
         LOG.info(SubmitJobsTest.tstSubmitJclJob(connection, jclString));

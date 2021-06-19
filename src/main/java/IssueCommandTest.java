@@ -12,8 +12,12 @@ public class IssueCommandTest {
     private static final Logger LOG = LogManager.getLogger(IssueCommandTest.class);
 
     public static void main(String[] args) {
-        ZOSConnection connection = new ZOSConnection("xxxxxxxx", "xxxxxxxx",
-                "xxxxxxxx", "xxxxxxxx");
+        String hostName = "xxxxxxxx";
+        String port = "xxxxxxxx";
+        String userName = "xxxxxxxx";
+        String password = "xxxxxxxx";
+
+        ZOSConnection connection = new ZOSConnection(hostName, port, userName, password);
 
         String command = "D IPLINFO";
 

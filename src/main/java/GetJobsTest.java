@@ -15,12 +15,16 @@ public class GetJobsTest {
     private static final Logger LOG = LogManager.getLogger(GetJobsTest.class);
 
     public static void main(String[] args) throws IOException {
-        ZOSConnection connection = new ZOSConnection("xxxxxxxx", "xxxxxxxx",
-                "xxxxxxxx", "xxxxxxxx");
 
+        String hostName = "xxxxxxxx";
+        String port = "xxxxxxxx";
+        String userName = "xxxxxxxx";
+        String password = "xxxxxxxx";
         String prefix = "xxxxxxxx";
         String owner = "xxxxxxxx";
-        String jobId = "xxxxxxxx"
+        String jobId = "xxxxxxxx";
+
+        ZOSConnection connection = new ZOSConnection(hostName, port, userName, password);
 
         GetJobsTest.tstGetJobsCommon(connection, prefix);
         GetJobsTest.tstGetSpoolFiles(connection, prefix);

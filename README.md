@@ -3,7 +3,7 @@
 A partial implementation of a Zowe SDK for Java.
   
 Run GetJobsTest.java, IssueCommandTest.java and SubmitJobsTest.java to see current functionality available.  
-You need to replace both instances of "xxxxxxxx" accordingly, see inline comment.   
+You need to replace all instances of "xxxxxxxx" accordingly, see inline comment.   
   
 Functionality provided:  
   

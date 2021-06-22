@@ -1,9 +1,11 @@
 # zowe-client-java-sdk
 
-A partial implementation of a Zowe SDK for Java.
+A partial implementation of a Zowe SDK for Java.  
+  
+This project has been submitted to the Zowe community for continuation of full feature set under the Zowe open source framework for z/OS.
   
 Run GetJobsTest.java, IssueCommandTest.java and SubmitJobsTest.java to see current functionality available.  
-You need to replace all instances of "xxxxxxxx" accordingly, see inline comment.   
+You need to replace all instances of "xxxxxxxx" accordingly.   
   
 Functionality provided:  
   
@@ -23,7 +25,7 @@ Logger packaged used for the project is log4j2.
   
 Under 'resources' directory you will find the logger configuration file log4j2.xml.  
   
-Change <Root level="debug"> assignment accordingly to your needs.  
+Change <Root level="debug"> assignment accordingly for your needs.  
   
 
   

@@ -1,12 +1,12 @@
 # zowe-client-java-sdk
 
 A partial implementation of a Zowe SDK for Java.  
+
+This project provides a modern SDK for developers to create many types of applications running on their Windows or Mac instance against z/OS.
   
 This project has been submitted to the Zowe community for continuation of full feature set under the Zowe open source framework for z/OS.
 
 See https://github.com/zowe/zowe-client-java-sdk for continued development. 
-
-This project provides a modern SDK for developers to create many types of applications running on their Windows or Mac instance against z/OS.
   
 Run GetJobsTest.java, IssueCommandTest.java and SubmitJobsTest.java to see current functionality available.  
 You need to replace all instances of "xxxxxxxx" accordingly which define Z/OSMF connection details to your system.   

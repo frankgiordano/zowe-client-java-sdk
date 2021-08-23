@@ -7,15 +7,20 @@ This project provides a modern SDK for developers to create many types of applic
 This project has been submitted to the Zowe community for continuation of full feature set under the Zowe open source framework for z/OS.
 
 See https://github.com/zowe/zowe-client-java-sdk for continued development. 
-  
-Run GetJobsTest.java, IssueCommandTest.java and SubmitJobsTest.java to see current functionality available.  
-You need to replace all instances of "xxxxxxxx" accordingly which define Z/OSMF connection details to your system.   
-  
+    
 Functionality provided:  
     
     GetJobs (all things about jobs) 
     IssueCommand (mvs commands)  
     SubmitJobs (partial)  
+      
+See the following sample programes that demo each functionality: 
+  
+    GetJobsTest.java  
+    IssueCommandTest.java  
+    SubmitJobsTest.java  
+  
+You need to replace all instances of "XXX" accordingly to meet your target's credentials and host information.
       
 ## Build
   

@@ -12,11 +12,11 @@ Run GetJobsTest.java, IssueCommandTest.java and SubmitJobsTest.java to see curre
 You need to replace all instances of "xxxxxxxx" accordingly which define Z/OSMF connection details to your system.   
   
 Functionality provided:  
-  
-    GetJobs (all things about jobs) 
-    IssueCommand (mvs commands)
-    SubmitJobs (partial)
     
+    GetJobs (all things about jobs) 
+    IssueCommand (mvs commands)  
+    SubmitJobs (partial)  
+      
 ## Build
   
 The following maven command at the root prompt of the project will produce ZoweJavaSDK.jar in the target directory:
